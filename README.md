@@ -11,3 +11,8 @@ docker build -t discovery-client-generator
 ```
 docker run -it -v $(pwd):$(pwd) -w $(pwd) discovery-client-generator --input=$(pwd)/yourapi-v1.json --output_dir=$(pwd)
 ```
+
+# Generator sources:
+
+See https://code.google.com/p/google-apis-client-generator/
+
